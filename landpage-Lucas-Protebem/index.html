@@ -1,0 +1,411 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lucas Vagner | Protebem Proteção Veicular</title>
+    <link
+      rel="shortcut icon"
+      href="assets/img/logo-protebem.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- CABEÇALHO E MENU DE NAVEGAÇÃO -->
+    <header id="cabecalho">
+      <div class="container cabecalho-conteudo">
+        <a href="#inicio" class="logo">
+          <div class="texto-logo"> PROTEBEM <span>Consultor Lucas</span>
+          </div>
+        </a>
+
+        <button id="botao-menu-mobile" aria-label="Abrir Menu">☰</button>
+
+        <nav id="menu-navegacao">
+          <ul>
+            <li><a href="#inicio">Início</a></li>
+            <li><a href="#planos">Planos</a></li>
+            <li><a href="#assistencias">Assistência 24h</a></li>
+            <li><a href="#antes-depois">Antes e Depois</a></li>
+            <li><a href="#indicacao">Indique e Ganhe</a></li>
+            <li>
+              <a href="#cotacao-rapida" class="botao-menu-destaque"
+                >Cotação Grátis</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- SEÇÃO PRINCIPAL (HERO) -->
+    <section id="inicio" class="secao-principal">
+      <div class="container grade-principal">
+        <div class="texto-principal">
+          <span class="etiqueta-destaque"
+            >Proteção Veicular em Todo o Brasil</span
+          >
+          <h1>A melhor proteção pelo melhor preço do Brasil.</h1>
+          <p class="subtitulo">
+            Tranquilidade para você e sua família rodarem com segurança, sem
+            análise de perfil e sem burocracia.
+          </p>
+
+          <ul class="lista-beneficios-topo">
+            <li>✔ Roubo, furto, colisão e incêndio</li>
+            <li>✔ Assistência 24h completa em todo o país</li>
+            <li>✔ Sem consulta ao SPC/Serasa e sem perfil de condutor</li>
+            <li>✔ Atendimento humanizado direto com seu consultor</li>
+          </ul>
+
+          <div class="botoes-principais">
+            <a href="#cotacao-rapida" class="botao-primario"
+              >FAZER COTAÇÃO AGORA</a
+            >
+            <a
+              href="https://wa.me/5575999878628?text=Ol%C3%A1%20Lucas!%20Vim%20pelo%20seu%20site%20e%20gostaria%20de%20uma%20cota%C3%A7%C3%A3o%20da%20Protebem."
+              target="_blank"
+              class="botao-whatsapp"
+              >Falar no WhatsApp</a
+            >
+          </div>
+        </div>
+
+        <div class="imagem-principal">
+          <img
+            src="assets/img/IMG-20250213-WA0235.jpg"
+            alt="Lucas Vagner Consultor Protebem"
+          />
+          <div class="cartao-flutuante-consultor">
+            <strong>Lucas Vagner</strong>
+            <span>Consultor Autorizado Protebem</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SEÇÃO DE PLANOS -->
+    <section id="planos" class="secao-clara">
+      <div class="container">
+        <div class="titulo-secao">
+          <h2>Planos Sob Medida para o Seu Veículo</h2>
+          <p>
+            Escolha a proteção ideal para o seu dia a dia ou ferramenta de
+            trabalho.
+          </p>
+        </div>
+
+        <div class="grade-cartoes-planos">
+          <!-- Plano Carro -->
+          <article class="cartao-plano">
+            <img src="assets/img/planos-01.png" alt="Plano Prime Carros" />
+            <div class="conteudo-cartao">
+              <span class="categoria-veiculo">Carros de Passeio</span>
+              <h3>Plano Prime</h3>
+              <p>
+                Proteção completa contra roubo, furto, colisão, fenômenos da
+                natureza e cobertura para terceiros.
+              </p>
+              <button
+                class="botao-selecionar-plano"
+                data-plano="Plano Prime (Carro)"
+              >
+                Quero Cotar Este
+              </button>
+            </div>
+          </article>
+
+          <!-- Plano Motorista de App -->
+          <article class="cartao-plano destaque-plano">
+            <div class="selo-mais-procurado">Mais Procurado</div>
+            <img
+              src="assets/img/oferta_mobili-01.png"
+              alt="Plano Mobili Motoristas de App"
+            />
+            <div class="conteudo-cartao">
+              <span class="categoria-veiculo">Uber / 99 / Aplicativos</span>
+              <h3>Plano Mobili</h3>
+              <p>
+                Feito especialmente para quem roda todos os dias. Cobertura
+                total para uso profissional sem restrições.
+              </p>
+              <button
+                class="botao-selecionar-plano"
+                data-plano="Plano Mobili (Motorista de App)"
+              >
+                Quero Cotar Este
+              </button>
+            </div>
+          </article>
+
+          <!-- Plano Moto -->
+          <article class="cartao-plano">
+            <img src="assets/img/planos-02.png" alt="Plano Moto Express" />
+            <div class="conteudo-cartao">
+              <span class="categoria-veiculo">Motos</span>
+              <h3>Plano Moto Express</h3>
+              <p>
+                Segurança ágil para sua motocicleta com guincho 24h, proteção
+                contra roubo, furto e colisão.
+              </p>
+              <button
+                class="botao-selecionar-plano"
+                data-plano="Plano Moto Express"
+              >
+                Quero Cotar Este
+              </button>
+            </div>
+          </article>
+
+          <!-- Plano Caminhão e Van -->
+          <article class="cartao-plano">
+            <img src="assets/img/planos-03.png" alt="Plano SuperTruck" />
+            <div class="conteudo-cartao">
+              <span class="categoria-veiculo"
+                >Vans, Utilitários e Caminhões</span
+              >
+              <h3>Plano SuperTruck</h3>
+              <p>
+                Proteção pesada para manter sua carga e seu patrimônio sempre
+                protegidos nas estradas.
+              </p>
+              <button
+                class="botao-selecionar-plano"
+                data-plano="Plano SuperTruck (Caminhão/Van)"
+              >
+                Quero Cotar Este
+              </button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SEÇÃO DE ASSISTÊNCIA 24 HORAS -->
+    <section id="assistencias" class="secao-azul">
+      <div class="container">
+        <div class="titulo-secao claro">
+          <h2>Assistência 24 Horas Onde Você Estiver</h2>
+          <p>
+            Imprevistos acontecem. Conte com suporte rápido a qualquer hora do
+            dia ou da noite.
+          </p>
+        </div>
+
+        <div class="grade-assistencias">
+          <div class="item-assistencia">
+            <div class="icone-assistencia">🚛</div>
+            <h3>Guincho 24h</h3>
+            <p>Reboque rápido em caso de pane elétrica, mecânica ou colisão.</p>
+          </div>
+          <div class="item-assistencia">
+            <div class="icone-assistencia">🔑</div>
+            <h3>Chaveiro</h3>
+            <p>
+              Perdeu ou trancou a chave dentro do carro? Enviamos um
+              profissional.
+            </p>
+          </div>
+          <div class="item-assistencia">
+            <div class="icone-assistencia">🛞</div>
+            <h3>Troca de Pneu</h3>
+            <p>
+              Suporte imediato para troca de pneu furado ou reboque até o
+              borracheiro.
+            </p>
+          </div>
+          <div class="item-assistencia">
+            <div class="icone-assistencia">⛽</div>
+            <h3>Pane Seca</h3>
+            <p>
+              Ficou sem combustível? Levamos você ou o veículo até o posto mais
+              próximo.
+            </p>
+          </div>
+          <div class="item-assistencia">
+            <div class="icone-assistencia">⚡</div>
+            <h3>Socorro Elétrico</h3>
+            <p>Carga de bateria e auxílio mecânico emergencial no local.</p>
+          </div>
+          <div class="item-assistencia">
+            <div class="icone-assistencia">🚗</div>
+            <h3>Carro Reserva e Hospedagem</h3>
+            <p>Você não fica a pé enquanto seu veículo passa por reparos.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SEÇÃO ANTES E DEPOIS / CREDIBILIDADE -->
+    <section id="antes-depois" class="secao-clara">
+      <div class="container">
+        <div class="titulo-secao">
+          <h2>Compromisso Comprovado na Prática</h2>
+          <p>
+            Veja entregas reais de veículos recuperados com peças originais e
+            atendimento transparente.
+          </p>
+        </div>
+
+        <div class="grade-galeria">
+          <div class="cartao-galeria">
+            <img
+              src="assets/img/Carros- IX.jpg"
+              alt="Antes e depois veículo recuperado Protebem"
+            />
+            <p>Reparo completo entregue ao associado</p>
+          </div>
+          <div class="cartao-galeria">
+            <img
+              src="assets/img/IMG-20250219-WA0181.jpg"
+              alt="Antes e depois colisão Protebem"
+            />
+            <p>Qualidade e agilidade na oficina credenciada</p>
+          </div>
+          <div class="cartao-galeria">
+            <img
+              src="assets/img/IMG-20250219-WA0446.jpg"
+              alt="Antes e depois recuperação Protebem"
+            />
+            <p>Seu patrimônio restaurado como novo</p>
+          </div>
+          <div class="cartao-galeria">
+            <img
+              src="assets/img/Divulgação rápida- Reclame aqui II.png"
+              alt="Reputação Protebem Reclame Aqui"
+            />
+            <p>Excelência no atendimento ao associado</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SEÇÃO INDIQUE E GANHE -->
+    <section id="indicacao" class="secao-indicacao">
+      <div class="container caixa-indicacao">
+        <div class="texto-indicacao">
+          <span class="etiqueta-pix">PIX NA CONTA</span>
+          <h2>Indique um Amigo e Ganhe Dinheiro no PIX!</h2>
+          <p>
+            Indicou um amigo e ele fechou a proteção comigo? Você recebe na
+            hora:
+          </p>
+          <div class="valores-pix">
+            <div class="badge-pix">🏍️ Moto: <strong>R$ 50</strong></div>
+            <div class="badge-pix">🚗 Carro: <strong>R$ 100</strong></div>
+            <div class="badge-pix">🚛 Caminhão: <strong>R$ 150</strong></div>
+          </div>
+          <a
+            href="https://wa.me/5575999878628?text=Ol%C3%A1%20Lucas!%20Quero%20indicar%20um%20amigo%20para%20a%20Protebem%20e%20ganhar%20no%20PIX!"
+            target="_blank"
+            class="botao-whatsapp"
+            >Quero Indicar Agora</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- FORMULÁRIO DE COTAÇÃO DIRETO PARA O WHATSAPP -->
+    <section id="cotacao-rapida" class="secao-clara">
+      <div class="container">
+        <div class="caixa-formulario">
+          <div class="cabecalho-formulario">
+            <h2>Faça Sua Cotação Gratuita</h2>
+            <p>
+              Preencha os dados abaixo e receba os valores direto no seu
+              WhatsApp em poucos minutos.
+            </p>
+          </div>
+
+          <form id="formulario-cotacao">
+            <div class="campo-formulario">
+              <label for="nome-cliente">Seu Nome:</label>
+              <input
+                type="text"
+                id="nome-cliente"
+                placeholder="Ex: João Silva"
+                required
+              />
+            </div>
+
+            <div class="campo-formulario">
+              <label for="modelo-veiculo">Modelo e Ano do Veículo:</label>
+              <input
+                type="text"
+                id="modelo-veiculo"
+                placeholder="Ex: Fiat Argo 2020"
+                required
+              />
+            </div>
+
+            <div class="campo-formulario">
+              <label for="tipo-plano">Plano de Interesse:</label>
+              <select id="tipo-plano">
+                <option value="Plano Prime (Carro)">
+                  Carro de Passeio (Plano Prime)
+                </option>
+                <option value="Plano Mobili (Motorista de App)">
+                  Motorista de App - Uber/99 (Plano Mobili)
+                </option>
+                <option value="Plano Moto Express">
+                  Moto (Plano Moto Express)
+                </option>
+                <option value="Plano SuperTruck (Caminhão/Van)">
+                  Van ou Caminhão (Plano SuperTruck)
+                </option>
+              </select>
+            </div>
+
+            <div class="campo-formulario">
+              <label for="cidade-cliente">Sua Cidade / Estado:</label>
+              <input
+                type="text"
+                id="cidade-cliente"
+                placeholder="Ex: Salvador - BA"
+                required
+              />
+            </div>
+
+            <button type="submit" class="botao-enviar-whatsapp">
+              Receber Cotação no WhatsApp 🚀
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- RODAPÉ -->
+    <footer id="rodape">
+      <div class="container conteudo-rodape">
+        <div>
+          <h3>Lucas Vagner</h3>
+          <p>Consultor Autorizado Protebem Proteção Veicular</p>
+          <p>Atendimento em todo o Brasil | WhatsApp: (75) 9 9987-8628</p>
+        </div>
+        <div class="creditos-desenvolvimento">
+          <p>© 2026 Protebem - Lucas Vagner. Todos os direitos reservados.</p>
+          <p class="assinatura-zenite">
+            Desenvolvido por <strong>Zênite Soluções</strong>
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- BOTÃO FLUTUANTE DO WHATSAPP -->
+    <a
+      href="https://wa.me/5575999878628?text=Ol%C3%A1%20Lucas!%20Gostaria%20de%20saber%20mais%20sobre%20a%20Protebem."
+      target="_blank"
+      id="whatsapp-flutuante"
+      title="Fale comigo no WhatsApp"
+    >
+      <span>💬 Falar no WhatsApp</span>
+    </a>
+
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
